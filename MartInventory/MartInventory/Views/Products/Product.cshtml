@@ -1,0 +1,28 @@
+@using BOL;
+
+@{
+    ViewData["Title"] = "Product Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Products Info</h1>
+
+    @{
+        List<Product> allProducts = (List<Product>)ViewData["products"];
+        <div>
+            @foreach (Product product in allProducts)
+            {
+                <li>@product.ProductId
+                    @product.ProductName,
+                    @product.Productdesc,
+                    @product.MRP,
+                    @product.DiscountPrice,
+                    @product.Qty,
+                    @product.ExpDate,
+                    @product.ProductType
+                </li>
+            }
+        </div>
+    }
+
+</div>

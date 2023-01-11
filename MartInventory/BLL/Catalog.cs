@@ -6,8 +6,9 @@ using System.Collections.Generic;
 
 public class Catalog
 {
-    public static List<Product> GetAllProducts(){
-        List<Product> allProducts = DBManager.GetAllProducts();
+    public List<Product> GetAllProducts(){
+        List<Product> allProducts = new List<Product>();
+        allProducts = DBManager.GetAllProducts();
         return allProducts;
     }
 }

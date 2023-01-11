@@ -16,9 +16,10 @@ public class ProductsController : Controller
         _logger = logger;
     }
 
-    public IActionResult Products()
+    public IActionResult Product()
     {
-        List<Product> allProducts=Catalog.GetAllProducts();
+        Catalog manager=new Catalog();
+        List<Product> allProducts=manager.GetAllProducts();
         this.ViewData["products"]=allProducts;
         return View();
     }

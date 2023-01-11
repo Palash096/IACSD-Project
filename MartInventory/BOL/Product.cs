@@ -6,7 +6,7 @@ public class Product
     public int ProductId{get; set;}
     public string ProductName{get; set;}
     public string Productdesc{get; set;}
-    public float MRP{get; set;}
+    public double MRP{get; set;}
     public double DiscountPrice{get; set;}
     public int Qty{get; set;}
     public DateTime ExpDate{get; set;}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\DAL\\DAL.csproj": {}
+    "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\BOL\\BOL.csproj": {
+    "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\BOL\\BOL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\BOL\\BOL.csproj",
+        "projectUniqueName": "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\BOL\\BOL.csproj",
         "projectName": "BOL",
-        "projectPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\BOL\\BOL.csproj",
+        "projectPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\BOL\\BOL.csproj",
         "packagesPath": "C:\\Users\\Palash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\BOL\\obj\\",
+        "outputPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\BOL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Palash\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -57,14 +57,14 @@
         }
       }
     },
-    "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\DAL\\DAL.csproj": {
+    "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Palash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Palash\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -79,8 +79,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\BOL\\BOL.csproj": {
-                "projectPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\MartInventory\\BOL\\BOL.csproj"
+              "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\BOL\\BOL.csproj": {
+                "projectPath": "C:\\Users\\Palash\\Desktop\\Personal Project\\IACSD-Project\\MartInventory\\BOL\\BOL.csproj"
               }
             }
           }
@@ -94,6 +94,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "mysql.data": {
+              "target": "Package",
+              "version": "[8.0.31, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
